@@ -21,3 +21,25 @@ class Solution {
 
     }
 }
+
+
+
+_________________   _________________________  _____________________________  __________________________  _______________________________  ____________________________  _______________________  _________________________
+import java.util.*;
+public class Main{
+    public static void main(String[] args){
+        Scanner sc = new Scanner(System.in);
+        String s = sc.nextLine();
+        String t = sc.nextLine();
+        char[] c = s.toCharArray();
+        char[] ch = t.toCharArray();
+        Arrays.sort(c);
+        Arrays.sort(ch);
+        if(Arrays.equals(c,ch)){
+            System.out.println("true");
+        }
+        else{
+            System.out.println("false");
+        }
+    }
+}
